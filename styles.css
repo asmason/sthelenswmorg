@@ -16,4 +16,3 @@ body {
 }
 */
 .navbar .nav-item.dropdown-item:hover {color:#fff;}
-.navbar .nav-item.dropdown:hover .dropdown-menu { background-color: #1a6da5; }
