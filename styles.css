@@ -13,3 +13,5 @@ body {
 .nav-link {
   color:#fff;
 }
+
+.navbar .nav-item.dropdown:hover .dropdown-menu { background-color: #1a6da5; }
