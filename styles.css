@@ -3,7 +3,7 @@ body {
 }
 
 #primary-nav {
-  background-color: black;
+  background-color: #121212;
 }
 
-.navbar-nav > li > .dropdown-menu { background-color: black; }
+.navbar-nav > li > .dropdown-menu { background-color: #121212; }
