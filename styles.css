@@ -8,10 +8,12 @@ body {
 
 .navbar-nav > li > .dropdown-menu { background-color: #212529; }
 
+/*
 .navbar-text,
 .navbar-brand,
 .nav-link {
   color:#fff;
 }
-
+*/
+.navbar .nav-item.dropdown {color:#fff;}
 .navbar .nav-item.dropdown:hover .dropdown-menu { background-color: #1a6da5; }
