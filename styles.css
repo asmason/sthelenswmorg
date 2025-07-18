@@ -7,3 +7,7 @@ body {
 }
 
 .navbar-nav > li > .dropdown-menu { background-color: #212529; }
+
+.nav-item.dropdown .dropdown-item:active {
+    background-color: white !important;
+}
