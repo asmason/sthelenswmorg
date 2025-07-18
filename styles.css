@@ -13,5 +13,5 @@ body {
 }
 
 .nav-item.dropdown .dropdown-item:hover {
-    background-color: red !important;
+    background-color: #DCDCDC !important;
 }
