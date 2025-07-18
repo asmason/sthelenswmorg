@@ -7,3 +7,10 @@ body {
 }
 
 .navbar-nav > li > .dropdown-menu { background-color: #343a40; }
+
+.navbar-text,
+.navbar-brand,
+.nav-link,
+.nav-link.active {
+  color:#fff;
+}
