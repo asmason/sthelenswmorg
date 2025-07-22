@@ -14,7 +14,7 @@ body {
 }
 
 .nav-item.dropdown .dropdown-item:hover {
-    background-color: white !important;
+    background-color: #f8f9fa !important;
 }
 .nav-item.dropdown .dropdown-item:active {
     background-color: red !important;
