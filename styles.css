@@ -10,7 +10,7 @@ body {
 
 .nav-item.dropdown .dropdown-item {
    background-color: #212529 !important;
-   color: white !important;
+   color: rgba(255,255,255,.55) !important;
 }
 
 .nav-item.dropdown .dropdown-item:hover {
