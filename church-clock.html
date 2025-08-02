@@ -13,6 +13,11 @@
   <!-- Custom styles-->
   <link href="styles.css" rel="stylesheet">
 
+  <!-- favicons -->
+  <link rel="icon" href="img/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="img/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="img/favicon.ico">  
+
   <title>St. Helen's Church</title>
 </head>
 
@@ -24,7 +29,7 @@
   <div id="primary-nav">
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar01"
           aria-controls="navbar01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -88,16 +93,31 @@
 
   <main role="main">
 
-    <section class="jumbotron mt-5">
+    <section class="jumbotron mt-3">
       <div class="container">
         <h1 class="jumbotron-heading">Church Clock</h1>
-        <p></p>
-        <p></p>
+        <p>Located on the west side of the tower the church has a fine old clock, created by William Potts and Sons Limited, in 1921. </p>
       </div>
     </section>
 
+    <div class="container">
+      <p></p>
+      <p>Externally, the clock has two hands, with roman numerals indicating the hour on the clock face.</p>
+      <img class="img-fluid" src="img/ChurchClockFace-1.png" alt="Clock showing midday." style="width: 50%;" />
+       <p></p>
+      <p>Internally, the clock has an intriguing clockwork mechanism. Shown in the video below, the left side of the clock controls the hourly striking of the church bell. The right side controls the time displayed on the clock face.</p>
 
-   
+      <div>
+        <video controls autoplay playsinline style="width: 100% !important;height: auto !important;" alt="Clock mechanism">
+          <source src="https://asmpresavcfile1.blob.core.windows.net/sthelenswmorg/ChurchClockMechanism.mp4#t=1" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
+      <p></p>
+      <p>Underneath the mechanism is a large pendulum which keeps the clock in time.
+          Both sides of the mechanism require regular manual winding. The clock has been wound constantly every 2 or 3 days by a team of community clock-winders since it was installed over 100 years ago!</p>
+      <p></p>
+    </div>  
 
   </main>
 
@@ -110,7 +130,7 @@
               <a class="nav-link active" aria-current="page" href="safeguarding.html">Safeguarding</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="privicy-policy.html">Privicy</a>
+              <a class="nav-link active" aria-current="page" href="privacy-policy.html">Privacy</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="churchyard-rules.html">Churchyard Rules</a>

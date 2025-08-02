@@ -13,7 +13,19 @@
   <!-- Custom styles-->
   <link href="styles.css" rel="stylesheet">
 
+  <!-- favicons -->
+  <link rel="icon" href="img/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="img/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="img/favicon.ico">  
+
   <title>St. Helen's Church</title>
+  
+  <style>
+    .carousel { overflow: hidden; padding-bottom: 4rem; }
+    .carousel-caption { top: 100%; }
+    .carousel-inner { overflow: visible; }
+    .carousel-control-next, .carousel-control-prev, .carousel-indicators { bottom: 4rem; }
+  </style>
 </head>
 
 <body>
@@ -24,7 +36,7 @@
   <div id="primary-nav">
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar01"
           aria-controls="navbar01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -88,11 +100,127 @@
 
   <main role="main">
 
-    <section class="jumbotron mt-5">
+    <section class="jumbotron mt-3">
       <div class="container">
         <h1 class="jumbotron-heading">Stained Glass Windows</h1>
+        <p>Many people come to see the beautiful windows in St. Helen’s, perhaps initially attracted by the six windows designed by Edward Burne-Jones (1833-1898) using glass by William Morris (1834-1896).  All but one of the six windows (the 1882 window) are dedicated to the memory of the Galland family, possibly explained by Burne-Jones’ being related by marriage to the family who lived at Welton Hill.</p>
+        <p>William Morris and Edward Burne-Jones were life-long friends and artistic and business associates.  By 1875 they were in business as Morris and Company.  Their first commission for Welton was in 1877 for two windows: the first is of St. Cecilia and St. Agnes in the chancel south side; the second is in the transept showing St. Ursula and St. Catharina.</p>
+
+        <div id="carousel1" class="carousel slide carousel-dark" data-bs-ride="carousel">
+          <!--
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="9" aria-label="Slide 10"></button>                        
+          </div> 
+          -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <img src="img/StainedGlass_0326.jpeg" class="d-block rounded" alt="Emperor Constantine I, St. Helen, Queen Bertha and King Ethelbert.">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Emperor Constantine I, St. Helen, Queen Bertha and King Ethelbert.</p>
+                </div>
+              </div>    
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="img/StainedGlass_0323.jpeg" class="d-block rounded" alt="The Offering of the Magi.">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>The Offering of the Magi.</p>
+                </div> 
+              </div>               
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="img/StainedGlass_0325.jpeg" class="d-block rounded" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <p></p>
+                </div>
+              </div>  
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="img/StainedGlass_0320.jpeg" class="d-block rounded" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <p></p>
+                </div>  
+              </div>              
+            </div> 
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="img/StainedGlass_0319.jpeg" class="d-block" alt="St. Ursula & St. Catharina.">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>St. Ursula & St. Catharina.</p>
+                </div>
+              </div>  
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="img/StainedGlass_0307.jpeg" class="d-block rounded" alt="The Musician's Window.">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>The Musician's Window.</p>
+                </div>
+              </div>  
+            </div>  
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="img/StainedGlass_0305.jpeg" class="d-block rounded" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <p></p>
+                </div>
+              </div>  
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="img/StainedGlass_0314.jpeg" class="d-block rounded" alt="The Four Apostles.">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>The Four Apostles.</p>
+                </div>
+              </div>  
+            </div> 
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="img/StainedGlass_0316.jpeg" class="d-block rounded" alt="St. Barbara & St. Agatha.">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>St. Barbara & St. Agatha.</p>
+                </div>
+              </div>                
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <img src="img/StainedGlass_0317.jpeg" class="d-block rounded" alt="St. Cecilia & St. Agnes.">
+                <div class="carousel-caption d-none d-md-block">
+                  <p></p>
+                </div>
+              </div>  
+            </div>                                                              
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
         <p></p>
+        <p>The large central west window of 1879 depicts the Emperor Constantine I (known as (Constantine the Great), St. Helen (the church’s namesake), Queen Bertha (wife of King Ethelbert and Queen of Kent whose influence led to the Christianisation of Anglo-Saxon England) and King Ethelbert (the first Christian King of Kent). The Emperor Constantine I is credited with converting the Roman Empire to Christianity (and so was born the Holy Roman Empire). His mother, Empress Helen (c. 250 – c. 330 and later a saint) is an important figure in the history of Christianity, reputed to have discovered Christ’s cross and having more than eighty churches built over holy places connected with the life of Jesus (such as the Church of the Nativity in Bethlehem).</p>
+        <p>Morris and Company also designed three other windows in the church: left of the west window is a virgin and child and a St. Nicholas – 1882; right two angels with scrolls with a seraph above – 1896; in the sanctuary south side the St. Barbara and St. Agatha window –  1898. The east window, which shows the four Apostles, was presented by the Revd. Canon T. B. Paget (vicar 1845-92) in 1864 after the church had been restored.   </p>
+        <p>In the south transept “The Offering of the Magi” window was placed by W.H.H. Broadley in 1865, in memory of his aunt Sophia Broadley, who donated the £6000 for the 1862-3 restoration.  This window is by Jean-Baptiste Capronnier (1814-91) of Brussels.</p>
+        <p>There are two 20th century windows: one hidden behind the organ by Jones and Willis of Birmingham – 1916; the other known as “The Musicians Window” by H. J. Stammers – 1954.  It is dedicated to the memory of Samuel Wilkinson Pilling (1856-1939) organist at St. Helen’s for 37 years.</p>
+        <p>Nicholas Pevsner, best known for his definitive series of county guides, states that “The glory of Welton is its windows.”  The most beautiful and elegant designs are of great skill, not only letting in the maximum of light but in drawing and colour of a very high standard.</p>
         <p></p>
+        <p>by Jackie Naidoo & Gareth Naidoo, June 2014</p>
+
       </div>
     </section>
 
@@ -110,7 +238,7 @@
               <a class="nav-link active" aria-current="page" href="safeguarding.html">Safeguarding</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="privicy-policy.html">Privicy</a>
+              <a class="nav-link active" aria-current="page" href="privacy-policy.html">Privacy</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="churchyard-rules.html">Churchyard Rules</a>
