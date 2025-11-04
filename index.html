@@ -125,7 +125,7 @@
           </div>
         </div>
 
-        <div><iframe src="https://player.captivate.fm/show/202a879f-8015-49a7-bf0d-1e8ae15cbe0a/latest/" style="width: 100%;height:200px"></iframe></div>
+        <div><iframe id="captivate" src="https://player.captivate.fm/show/202a879f-8015-49a7-bf0d-1e8ae15cbe0a/latest/" style="width: 100%;height:200px"></iframe></div>
 
 
         <hr/>  
@@ -404,7 +404,9 @@
 
   <script>
     $(document).ready(function(){
-      
+      $('iframe#captivate').load(function(){
+        console.log('captivate loaded.');
+      });
     }); 
   </script>    
 
