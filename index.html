@@ -404,8 +404,8 @@
 
   <script>
     $(document).ready(function(){
-      $('#captivate').load(function(){
-        //console.log('captivate loaded.');
+      $('#captivate').on( "load", function() {
+        console.log('iframe loaded')
       });
     }); 
   </script>    
