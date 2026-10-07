@@ -286,6 +286,24 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
+  <script>
+    (function () {
+      var videos = document.getElementsByTagName('video');
+      for (var i = 1; i < videos.length; i++) {
+        videos[i].pause();
+      }
+      for (var j = 0; j < videos.length; j++) {
+        videos[j].addEventListener('play', function () {
+          for (var k = 0; k < videos.length; k++) {
+            if (videos[k] !== this) {
+              videos[k].pause();
+            }
+          }
+        });
+      }
+    })();
+  </script>
+
 </body>
 
 </html>
